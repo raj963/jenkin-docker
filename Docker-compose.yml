@@ -1,0 +1,7 @@
+version: '2'
+services: 
+    java-app:
+        container_name: 'java-test-app'
+        restart: always
+        ports: 8080
+        
